@@ -1,0 +1,16 @@
+package com.hicode.backend.model.enums;
+
+public enum DonationStatus {
+    PENDING_APPROVAL,
+    REJECTED,
+    APPOINTMENT_PENDING,
+    APPOINTMENT_SCHEDULED,
+    RESCHEDULE_REQUESTED,
+    HEALTH_CHECK_PASSED,
+    HEALTH_CHECK_FAILED,
+    BLOOD_COLLECTED,
+    TESTING_PASSED,
+    TESTING_FAILED,
+    COMPLETED,
+    CANCELLED
+}
